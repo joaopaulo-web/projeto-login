@@ -1,0 +1,203 @@
+@charset "UTF-8";
+
+/*
+    Paleta de Cores
+    Verde: #49a09d
+    Lilás: #5f2c82
+
+*/
+@media screen and (min-width: 768px){
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    html,body{
+        background-image: linear-gradient(to bottom, #5f2c82, #49a09d);
+    }
+    main{
+        height: 100vh;
+        position: relative;
+    }
+    section{
+        width: 768px;
+        box-shadow: -3px -3px 10px rgba(0, 0, 0, 0.418);
+        width: 95vh;
+        height: 39vh;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 25px;
+        padding-bottom: 60px;
+    }
+    span#pessoa{
+        color: white;
+    }
+    span#chave{
+        color: white;
+    }
+    div#formulario {
+        position: absolute;
+        top: 0%;
+        left: 30.4%;
+        padding: 10px;
+    }
+    div#campo{
+        margin-bottom: 3px;
+        padding: 5px;
+        border-radius: 7px;
+        background-color: #5f2c82;
+        display: block;
+        text-align: center;
+    }
+    div#imagem{
+        border-radius: 25px 0px 0px 25px;
+        position: relative;
+        width: 30%;
+        height: 127%;
+        background: url(../imagens/pexels-david-underland-3523621.jpg) no-repeat;
+        background-position: right center;
+    }
+    div > h1{
+        font-size: 1.4em;
+        margin-bottom: 5px;
+        text-align: center;
+    }
+    div > p{
+        line-height: 1.1em;
+        font-size: .8em;
+        margin-bottom: 5px;
+    }
+    input{
+        background-color: #94cfcd;
+        font-size: 1em;
+        width: calc(100% - 45px);
+        border: 0px;
+        border-radius: 8px;
+        padding: 8px 4px 8px 4px;
+    }
+    input#entrar{
+        padding: 10px;
+        margin-top: 11px;
+        width: 100%;
+        background-color: #53aaa7;
+        color: white;
+    }
+    input#esqueci{
+        border: 1px solid #53aaa7;
+        padding: 10px;
+        margin-top: 5px;
+        width: 100%;
+        background-color: white;
+        color: #2d6462;
+    }
+    input#entrar:hover{
+        color: white;
+        background-color: #2d6462;
+    }
+    input#esqueci:hover{
+        background-color: #52b8b4;
+    }
+}
+
+@media screen and (min-width: 992px){
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    html,body{
+        background-image: linear-gradient(to bottom, #5f2c82, #49a09d);
+    }
+    main{
+        height: 100vh;
+        position: relative;
+    }
+    section{
+        width: 992px;
+        box-shadow: -3px -3px 10px rgba(0, 0, 0, 0.418);
+        width: 140vh;
+        height: 42vh;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 25px;
+        padding-bottom: 70px;
+    }
+    span#pessoa{
+        color: white;
+    }
+    span#chave{
+        color: white;
+    }
+    div#formulario {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        right: 50%;
+        padding: px;
+    }
+    div#campo{
+        margin-bottom: 3px;
+        padding: 5px;
+        border-radius: 7px;
+        background-color: #5f2c82;
+        display: block;
+        text-align: center;
+    }
+    div#imagem{
+        border-radius: 0px 25px 25px 0px;
+        position: relative;
+        left: 50%;
+        width: 50%;
+        height: 129%;
+        background: url(../imagens/pexels-david-underland-3523621.jpg) no-repeat;
+        background-position: center center;
+    }
+    div > h1{
+        padding-bottom: 5px;
+        font-size: 2em;
+        text-align: center;
+    }
+    div > p{
+        line-height: 1.3em;
+        font-size: .9em;
+        margin-bottom: 8px;
+    }
+    input{
+        background-color: #94cfcd;
+        font-size: 1em;
+        width: calc(100% - 45px);
+        border: 0px;
+        border-radius: 8px;
+        padding: 8px 4px 8px 4px;
+    }
+    input#entrar{
+        padding: 10px;
+        margin-top: 11px;
+        width: 100%;
+        background-color: #53aaa7;
+        color: white;
+    }
+    input#esqueci{
+        border: 1px solid #53aaa7;
+        padding: 10px;
+        margin-top: 5px;
+        width: 100%;
+        background-color: white;
+        color: #2d6462;
+    }
+    input#entrar:hover{
+        color: white;
+        background-color: #2d6462;
+    }
+    input#esqueci:hover{
+        background-color: #52b8b4;
+    }
+}
