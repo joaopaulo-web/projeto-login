@@ -99,3 +99,7 @@ input#entrar:hover{
 input#esqueci:hover{
     background-color: #52b8b4;
 }
+section#login{
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
+}
