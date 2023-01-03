@@ -18,20 +18,21 @@ html,body{
     background-color: #5f2c82;
 }
 main{
-    height: 97vh;
+    width: 100vw;
+    height: 100vh;
     position: relative;
 }
 section{
-    height: 580px;
-    width: 250px;
-    box-shadow: -3px -3px 10px rgba(0, 0, 0, 0.418);
-    background-color: white;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    height: 580px;
+    width: 250px;
+    background-color: white;
     border-radius: 25px;
     padding-bottom: 40px;
+    box-shadow: -3px -3px 10px rgba(0, 0, 0, 0.418);
 }
 span#pessoa{
     color: white;
