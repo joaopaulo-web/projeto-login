@@ -6,7 +6,7 @@
     Lilás: #5f2c82
 
 */
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) and (max-width: 992px){
     *{
         font-family: Arial, Helvetica, sans-serif;
         padding: 0px;
