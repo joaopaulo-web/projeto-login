@@ -29,9 +29,8 @@ section{
     transform: translate(-50%, -50%);
     height: 580px;
     width: 250px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border-radius: 25px;
-    padding-bottom: 40px;
     box-shadow: -3px -3px 10px rgba(0, 0, 0, 0.418);
 }
 span#pessoa{
@@ -41,7 +40,9 @@ span#chave{
     color: white;
 }
 div#formulario {
-    padding: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 div#campo{
     margin-bottom: 3px;
@@ -54,7 +55,8 @@ div#campo{
 div#imagem{
     border-radius: 25px 25px 0px 0px;
     position: relative;
-    height: 35vh;
+    width: 250px;
+    height: 200px;
     background: url(../imagens/pexels-david-underland-3523621.jpg) no-repeat;
     background-position: center left;
 }
