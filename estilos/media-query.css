@@ -21,10 +21,9 @@
         position: relative;
     }
     section{
+        height: 300px;
         width: 768px;
         box-shadow: -3px -3px 10px rgba(0, 0, 0, 0.418);
-        width: 95vh;
-        height: 39vh;
         background-color: rgb(255, 255, 255);
         position: absolute;
         top: 50%;
@@ -57,7 +56,7 @@
         border-radius: 25px 0px 0px 25px;
         position: relative;
         width: 30%;
-        height: 127%;
+        height: 125%;
         background: url(../imagens/pexels-david-underland-3523621.jpg) no-repeat;
         background-position: right center;
     }
@@ -118,10 +117,9 @@
         position: relative;
     }
     section{
+        height: 350px;
         width: 992px;
         box-shadow: -3px -3px 10px rgba(0, 0, 0, 0.418);
-        width: 140vh;
-        height: 42vh;
         background-color: rgb(255, 255, 255);
         position: absolute;
         top: 50%;
@@ -156,7 +154,7 @@
         position: relative;
         left: 50%;
         width: 50%;
-        height: 129%;
+        height: 125%;
         background: url(../imagens/pexels-david-underland-3523621.jpg) no-repeat;
         background-position: center center;
     }
